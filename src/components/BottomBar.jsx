@@ -11,11 +11,11 @@ import {
 import { cn } from "@/lib/utils";
 
 const menuItems = [
-  { icon: Home, label: 'Beranda', href: '#home' },
+  { icon: Home, label: 'Home', href: '#home' },
   { icon: CalendarHeart, label: 'Event', href: '#event' },
-  { icon: MapPin, label: 'Lokasi', href: '#location' },
-  { icon: Gift, label: 'Hadiah', href: '#gifts' },
-  { icon: MessageCircleHeart, label: 'Harapan', href: '#wishes' },
+  { icon: MapPin, label: 'Location', href: '#location' },
+  { icon: Gift, label: 'Gif', href: '#gifts' },
+  { icon: MessageCircleHeart, label: 'Wishhes', href: '#wishes' },
 ];
 
 /**
@@ -65,14 +65,14 @@ const BottomBar = () => {
                 className={cn(
                   "h-[18px] w-[18px] sm:h-5 sm:w-5 mb-0.5 sm:mb-1 transition-colors duration-200",
                   active === item.label.toLowerCase()
-                    ? "stroke-rose-500"
+                    ? "stroke-blue-500"
                     : "stroke-gray-600"
                 )}
               />
               <span className={cn(
                 "text-[10px] sm:text-xs font-medium transition-all duration-200 line-clamp-1",
                 active === item.label.toLowerCase()
-                  ? "scale-105 text-rose-500"
+                  ? "scale-105 text-blue-500"
                   : "scale-100"
               )}>
                 {item.label}

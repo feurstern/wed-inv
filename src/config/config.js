@@ -30,17 +30,17 @@ const config = {
       },
       {
         title: "Lunch Buffet & Celebration",
-        date: "2024-12-24",
-        startTime: "16:16",
-        endTime: "17:30",
+        date: "2025-11-22",
+        startTime: "11:00",
+        endTime: "13:30",
         location: "Restaurant Samedja",
         address:
           " Jl. Ahmad Yani No.10, Marga Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17141",
       },
     ],
     audio: {
-      src: "/audio/fulfilling-humming.mp3", // or /audio/nature-sound.mp3
-      title: "Fulfilling Humming", // or Nature Sound
+      src: "/audio/the_moment.mp3", // or /audio/nature-sound.mp3
+      title: "The Moment", // or Nature Sound
       autoplay: true,
       loop: true,
     },
@@ -49,7 +49,7 @@ const config = {
         bank: "Bank Central Asia",
         accountNumber: "5211435667",
         accountName: "SITI ANISA DIVIANI",
-      }
+      },
     ],
   },
 };
