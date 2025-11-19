@@ -1,8 +1,8 @@
 // src/pages/LandingPage.jsx
-import config from '@/config/config';
-import { formatEventDate } from '@/lib/formatEventDate';
-import { motion } from 'framer-motion';
-import { Calendar, Clock } from 'lucide-react';
+import config from "@/config/config";
+import { formatEventDate } from "@/lib/formatEventDate";
+import { motion } from "framer-motion";
+import { Calendar, Clock } from "lucide-react";
 
 const LandingPage = ({ onOpenInvitation }) => (
   <motion.div
@@ -49,9 +49,7 @@ const LandingPage = ({ onOpenInvitation }) => (
 
             <div className="inline-flex flex-col items-center space-y-1 bg-white/80 px-4 sm:px-6 py-2 sm:py-3 rounded-xl">
               <Clock className="w-5 h-5 text-blue-400" />
-              <p className="text-gray-700 font-medium">
-                {config.data.time}
-              </p>
+              <p className="text-gray-700 font-medium">{config.data.time}</p>
             </div>
           </motion.div>
 
@@ -64,9 +62,9 @@ const LandingPage = ({ onOpenInvitation }) => (
           >
             <div className="space-y-2">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-800 leading-tight">
-                {config.data.groomName}
-                <span className="text-blue-400 mx-2 sm:mx-3">&</span>
                 {config.data.brideName}
+                <span className="text-blue-400 mx-2 sm:mx-3">&</span>
+                {config.data.groomName}
               </h1>
               <div className="h-px w-16 sm:w-24 mx-auto bg-blue-200" />
             </div>

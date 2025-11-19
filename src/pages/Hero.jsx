@@ -138,7 +138,25 @@ export default function Hero() {
               transition={{ delay: 0.4 }}
               className="text-gray-500 font-light italic text-base sm:text-lg"
             >
-              We will get married
+              Life can beautiful, shared by two ...
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="text-gray-500 font-light italic text-base sm:text-lg"
+            >
+              World filled with love, ever old,. ever new ...
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="text-gray-500 font-light italic text-base sm:text-lg"
+            >
+              We
             </motion.p>
 
             <motion.h2
@@ -147,12 +165,21 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="text-3xl sm:text-5xl font-serif bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-pink-600"
             >
-              {config.data.groomName} & {config.data.brideName}
+              {config.data.brideName} & {config.data.groomName}
             </motion.h2>
+
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+              className="text-gray-500 font-light italic text-base sm:text-lg"
+            >
+              Invite you to celebrate our wedding
+            </motion.p>
           </div>
 
           <ImageCarousel />
-      
+
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
